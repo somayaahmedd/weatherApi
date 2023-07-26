@@ -1,0 +1,333 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+a{
+    text-decoration: none;
+}
+.site-header {
+    padding: 50px 0;
+}
+ .branding {
+    float: left;
+}
+
+ .branding .logo {
+    margin-right: 10px;
+}
+ .branding .logo,  .branding .logo-type {
+    display: inline-block;
+    vertical-align: middle;
+}
+ .branding .site-description {
+    font-size: 10px;
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+}
+ .branding .site-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-size: 1.1428571429em;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0 0 20px;
+    line-height: normal;
+}
+
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    
+    cursor: pointer;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    
+}
+.nav-link{
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    border: #009ad8 solid 2px;
+
+    border-radius: 20rem;
+}
+a:hover{
+    color: #009ad8 !important;
+}
+.home{
+    border: #009ad8 solid 2px;
+
+    border-radius: 20rem;
+}
+
+.hero {
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+    margin-top: 30px;
+}
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+}
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+form input, form textarea, form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.button, form input[type="submit"], form input[type="button"], form button, form input[type="reset"] {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+.find-location input[type="submit"], .find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+.site-footer .subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+}
+.site-footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
+form input, form textarea, form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.site-footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.4285714286em;
+    padding-top: 10px;
+    transition: all 0.5s;
+
+}
+.site-footer .social-links a:hover{
+    color: white;
+    background-color: #009ad8;
+}
+.social-links{
+   
+    padding-left: 80px;
+}
+.breadcrumb {
+    font-size: 0.928571em;
+    background: rgb(38, 41, 54);
+    border-radius: 40px;
+    padding: 20px 30px;
+    margin-top: 35px;
+}
+.contact-details {
+    background: rgb(38, 41, 54);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.contact-details .map {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.map{
+    height: 180px;
+}
+.contact-details .contact-info {
+    padding: 20px;
+}
+.inner{
+    margin-top: 80px;
+    margin-bottom: 70px;
+  
+}
+.fullwidth-block .section-title {
+    font-size: 2.57143em;
+    font-weight: 300;
+    color: white;
+}
+.inp:hover{
+    border-color:#009ad8;
+}
+.inp{
+    width: 250px;
+    height: 47px;
+    margin-top: 10px;
+    border: rgb(57, 60, 72) solid 2px;
+    border-radius: 20rem;
+    background-color: #1e202b;
+}
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    padding: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(57, 60, 72);
+    border-image: initial;
+    background: transparent; 
+    height: 147;
+    margin-top: 10px;
+}
+.contact-form textarea:hover {
+    border-color:#009ad8;
+}
+.btf{
+    float:right;
+}
+.forecast-container {
+    width: 100%;
+    background: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.forecast-container .forecast.today .forecast-content {
+    text-align: left;
+    margin-top: 15px;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.forecast-container .forecast .forecast-content {
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+.forecast-container .forecast.today .forecast-header .date {
+    float: right;
+}
+.forecast-container .forecast.today .forecast-header .day {
+    float: left;
+}
+.forecast-container .forecast.today .location {
+    font-size: 18px;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+.forecast-container .forecast .forecast-content .degree {
+    font-size: 24px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+    display:flex;
+    justify-content: center;
+    
+}
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+.forecast-container .forecast.today .degree .num {
+    
+    font-size: 5.5rem;
+    margin-right: 30px;
+    width: 70%;
+}
+.forecast-container .forecast.today .degree .num, .forecast-container .forecast.today .degree .forecast-icon {
+    display: inline-block;
+    vertical-align: middle;
+   
+
+}
+.forecast-container .forecast.today .degree .forecast-icon {
+margin-top: 10px;
+width: 29%;
+}
+#today{
+    padding-bottom: 31px;
+}
+.forecast-container .forecast:nth-child(even) {
+    background-color: #262936;
+}
+sup{
+    position: relative;
+    top: 0 px;
+    height: 18px;
+    margin-top: 18px;
+}
+.sup1 {
+    position: relative;
+    top: -0.5em;
+}
+.forecast-container .forecast {
+    width: 33.33%;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:hover{
+    color: #009ad8;
+    border: #009ad8 solid 2px;
+    border-radius: 20rem;
+}
+@media screen and (max-width: 950px){
+.forecast-container .forecast {
+   
+    width: 100%;
+   
+}
+}
